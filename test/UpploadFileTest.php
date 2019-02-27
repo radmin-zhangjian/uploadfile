@@ -1,18 +1,3 @@
-# uploadfile
-
-## Introduction
-
-一个文件上传通用类
-
-## Install
-
-```
-$ composer require yuqinglan/upload
-```
-
-## Demo
-
-```php
 <?php
 
 require_once __DIR__ . '../vendor/autoload.php';
@@ -33,4 +18,3 @@ if ($upload->upload()) {
 } else {
     var_dump($upload->getErrorMsg());
 }
-```
