@@ -6,7 +6,7 @@
         "php": ">=5.4"
     },
     "require-dev": {
-        "php": ">=5.4 || ^7.1"
+        "php": ">=5.4"
     },
     "license": "MIT",
     "authors": [
@@ -15,5 +15,10 @@
             "email": "6204000@qq.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "zhangjian\\upload\\": "src/"
+        }
+    }
 }
